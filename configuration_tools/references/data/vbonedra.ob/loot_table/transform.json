@@ -1,0 +1,46 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "item_model": "air",
+                                "lore": [
+                                    {
+                                        "text": "DROP ME RIGHT NOW",
+                                        "italic": false,
+                                        "bold": true,
+                                        "color": "dark_red"
+                                    },
+                                    {
+                                        "text": "This item shouldn't be obtainable! (Besides \"/loot give [entity] loot vbonedra.ob:transform\")",
+                                        "italic": false,
+                                        "color": "red"
+                                    },
+                                    {
+                                        "text": "It must've used \"/setblock <...>\" or \"/summon <...>\" to transform mined block and then must've killed itself.",
+                                        "italic": false,
+                                        "color": "gray"
+                                    },
+                                    {
+                                        "text": "If it didn't happened and you didn't used \"/loot give [entity] loot vbonedra.ob:transform\", OnionBlock datapack is bugged!",
+                                        "italic": false,
+                                        "color": "gray"
+                                    }
+                                ],
+                                "max_stack_size": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

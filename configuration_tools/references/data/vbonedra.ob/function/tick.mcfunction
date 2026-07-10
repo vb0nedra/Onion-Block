@@ -1,0 +1,1 @@
+execute as @e[type=item,tag=!vbonedra.ob-checked] at @s run function vbonedra.ob:check

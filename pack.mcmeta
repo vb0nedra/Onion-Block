@@ -1,0 +1,18 @@
+{
+    "pack": {
+        "min_format": 107,
+        "max_format": 107,
+        "description": [
+            {
+              "text": "OnionBlock",
+                "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                        "text": "By vbonedra",
+                        "color": "#0edd26"
+                    }
+                }
+            }
+        ]
+    }
+}

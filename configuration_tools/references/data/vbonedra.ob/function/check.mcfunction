@@ -1,0 +1,2 @@
+tag @s add vbonedra.ob-checked
+execute if entity @s[nbt={Item:{id:"minecraft:knowledge_book",components:{"minecraft:custom_data":{vbonedra.ob:{modified:true}}}}}] run function vbonedra.ob:transform with entity @s Item.components."minecraft:custom_data"."vbonedra.ob"

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "key": {
+        "#": "minecraft:gravel"
+    },
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "result": {
+        "id": "minecraft:cobblestone_slab",
+        "count": 1
+    }
+}
